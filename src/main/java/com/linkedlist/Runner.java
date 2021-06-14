@@ -11,12 +11,6 @@ public class Runner {
 			numberList.add(70);
 			numberList.show();
 			System.out.println();
-			System.out.println("post deletion..");
-			int result = numberList.search(40);
-			numberList.remove(result);
-			int Size = numberList.size();
-			numberList.show();
-			System.out.println("Size of list " + Size);
-	        
-	    }
+			
+	}
 }
