@@ -13,7 +13,7 @@ public class Runner {
 		 numberList.show();
 		 System.out.println();
 		 System.out.println("After deleting");
-		 numberList.getFirst();
+		 numberList.getLast();
 		 numberList.show();
 
 	    }
