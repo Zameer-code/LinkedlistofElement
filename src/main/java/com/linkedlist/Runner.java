@@ -7,14 +7,13 @@ public class Runner {
 				
 		LinkedList<Integer> numberList = new LinkedList<>();
 		 numberList.add(56);
-		 numberList.add(30);
-		 numberList.add(70);
-		 System.out.println("before deleting");
+	         numberList.add(30);
+	         numberList.add(70);
 		 numberList.show();
-		 System.out.println();
-		 System.out.println("After deleting");
-		 numberList.getLast();
-		 numberList.show();
+	         System.out.println();
+	         int result = numberList.search(30);
+	         System.out.println("index  " + result);
 
+	        
 	    }
 }
