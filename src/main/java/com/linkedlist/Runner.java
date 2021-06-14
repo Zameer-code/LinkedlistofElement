@@ -7,10 +7,10 @@ public class Runner {
 				
 		LinkedList<Integer> numberList = new LinkedList<>();
 			
-		 numberList.addAtStart(56);
-		 numberList.add(30);
-		 numberList.add(70);
-		 numberList.show();
+		numberList.addAtStart(56);
+		numberList.add(1, 30);
+		numberList.add(70);
+		numberList.show();
 
 	    }
 }
