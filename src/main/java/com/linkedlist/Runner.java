@@ -8,12 +8,14 @@ public class Runner {
 				
 		LinkedList<Integer> numberList = new LinkedList<>();
 			
-		numberList.add(56);
-	        numberList.add(30);
-	        numberList.add(70);
-	        numberList.show();
-	       
-	    }
+		
+		numberList.addAtStart(70);
+		numberList.addAtStart(30);
+		numberList.addAtStart(56);
+		numberList.show();
+
+    }
 }
+	 
 
 		
